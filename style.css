@@ -1,0 +1,23 @@
+body {
+background-color: rgb(238, 0, 255);
+color: darkblue;
+font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+img{
+    width: 700px;
+    height: auto;
+    transform: rotate(15deg);
+}
+
+h1 {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Pour compatibilité */
+    color: transparent;
+}
+p{
+    font-size: 20px;
+    text-align: right;
+}
