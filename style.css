@@ -11,7 +11,7 @@ img{
 }
 
 h1 {
-    background: linear-gradient(90deg, red, orange, yellow, green, blue);
+    background: linear-gradient(90deg, red, orange, yellow, rgb(0, 183, 255), violet);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text; /* Pour compatibilité */
