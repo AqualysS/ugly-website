@@ -12,9 +12,17 @@
 
 <br>
     <p style="text-align:center; font-size: 50px; color: aqua;" id="date"></p>
-<script>
-  document.getElementById('date').innerText = new Date().toLocaleString();
-</script>
+    <script>
+        // Update the #date element immediately and then every second
+        function updateDateTime() {
+            const el = document.getElementById('date');
+            if (!el) return;
+            el.innerText = new Date().toLocaleString();
+        }
+
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    </script>
 <br>    
     <p style="font-size:40px;">This is a simple HTML document.</p>
 <br>
