@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function() {
     const colors = ['red', 'orange', 'yellow', 'lime', 'cyan', 'blue'];
     let index = 0;
@@ -7,14 +6,4 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('rainbow-text').style.color = colors[index];
         index = (index + 1) % colors.length;
     }, 100);
-=======
-document.addEventListener('DOMContentLoaded', function() {
-    const colors = ['red', 'orange', 'yellow', 'lime', 'cyan', 'blue', 'magenta'];
-    let index = 0;
-    
-    setInterval(function() {
-        document.getElementById('rainbow-text').style.color = colors[index];
-        index = (index + 1) % colors.length;
-    }, 300);
->>>>>>> 505bfa7f8dc6c9219261adb305fc78a0280be0e6
 });
