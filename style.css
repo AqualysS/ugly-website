@@ -1,5 +1,5 @@
 body {
-background-color: rgb(238, 0, 255);
+background-color: #FF10F0;
 color: darkblue;
 font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
 /* Prevent mobile browsers from auto-scaling text to a different font-size/face */
@@ -7,11 +7,10 @@ font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
 text-size-adjust: 100%;
 /* Improve font rendering on some devices */
 -webkit-font-smoothing: antialiased;
-/* note: `font-smoothing` without prefix is not a standard property and was removed */
 }
 
 img{
-    max-width: 90%;
+    max-width: 70%;
     height: auto;
     transform: rotate(5deg);
     display: block;
