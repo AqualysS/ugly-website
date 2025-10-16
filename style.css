@@ -7,7 +7,6 @@ font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
 text-size-adjust: 100%;
 /* Improve font rendering on some devices */
 -webkit-font-smoothing: antialiased;
-/* note: `font-smoothing` without prefix is not a standard property and was removed */
 }
 
 img{
