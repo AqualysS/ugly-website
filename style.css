@@ -10,7 +10,7 @@ text-size-adjust: 100%;
 }
 
 img{
-    max-width: 90%;
+    max-width: 150%;
     height: auto;
     transform: rotate(5deg);
     display: block;
