@@ -1,5 +1,5 @@
 body {
-background-color: #FF10F0;
+background: linear-gradient(to bottom,#FF10F0, #10FFF0);
 color: darkblue;
 font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
 /* Prevent mobile browsers from auto-scaling text to a different font-size/face */
@@ -17,14 +17,8 @@ img{
     margin: 0 auto;
 }
 
-h1 {
-    background: linear-gradient(90deg, red, orange, yellow, rgb(0, 183, 255), violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text; /* Pour compatibilité */
-    color: transparent;
-}
 p{
     font-size: 20px;
     text-align: right;
+    background: linear-gradient(45deg, red, orange, yellow, lime, cyan, blue, violet);
 }
