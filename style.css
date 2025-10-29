@@ -7,6 +7,7 @@ font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
 text-size-adjust: 100%;
 /* Improve font rendering on some devices */
 -webkit-font-smoothing: antialiased;
+cursor: url('https://cur.cursors-4u.net/cursors/cur-11/cur1041.ani'), auto;
 }
 
 img{
@@ -22,3 +23,14 @@ p{
     text-align: right;
     background: linear-gradient(45deg, red, orange, yellow, lime, cyan, blue, violet);
 }
+
+button {
+    background-color: lime;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 20px;
+    border: 3px dashed purple;
+    padding: 10px 20px;
+}
+
+
+

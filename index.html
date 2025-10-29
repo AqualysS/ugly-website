@@ -8,10 +8,6 @@
 </head>
 <body>
     <h1 id="rainbow-text" class="rainbow-blink" style="font-size:60px;text-align:center;">Welcome to the worst Page ever !</h1>
-   
-<script>
-  alert("Bienvenue sur la pire page du monde !");
-</script>
 
 <br>
     <p style="text-align:center; font-size: 50px; color: rgb(145, 253, 217)" id="date"></p>
@@ -27,9 +23,26 @@
         setInterval(updateDateTime, 1000);
     </script>
 <br>    
-    <p style="font-size:40px;">This is a simple HTML document.</p>
+<center><button onclick="alert('Tu as clique, bravo.')">Clique ici !</button></center>
+
+<br><br>    
+
+<p style="font-size:40px;">This is a simple HTML document.</p>
 <br>
     <center><img src="C:\Users\lassa\Desktop\projets divers\HTML\Site Moche\Site-Moche\proxy-image.htm" alt="Cute cat enjoying the party"/></center>
+<br>
+<center>
+  <button id="colorButton" onclick="changeColor()">Change ma couleur !</button>
+</center>
+
+<script>
+function changeColor() {
+  const btn = document.getElementById("colorButton");
+  btn.style.backgroundColor = 
+    'hsl(' + Math.random() * 360 + ', 100%, 70%)';
+}
+</script>
+
 <br>
 
     <p style="font-size:40px; color:rgb(0, 168, 0); text-align:left;">This page is intentionally designed to be visually disgusting.</p>

@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
+    const name = prompt("Quel est ton prenom ?");
+    alert("Salut " + name + ", bienvenue sur ce site web moche !");
+    
     // Animation de texte arc-en-ciel
     const colors = ['red', 'orange', 'yellow', 'lime', 'cyan', 'blue'];
     let index = 0;
